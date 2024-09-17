@@ -5,7 +5,7 @@ This project is a classic **Arkanoid Game** implemented in Java.<br>
 The objective is to destroy all the blocks by bouncing a ball off a paddle controlled by the player.<br>
 <!-- The player loses the game when the all the balls falls below the paddle. -->
 
-### Features
+## Features
 - **Paddle Control**: Move the paddle left and right to bounce the ball.
 - **Blocks**: Breakable blocks arranged in rows that the player must destroy.
 - **Ball Physics**: The ball bounces off the walls, paddle, and blocks with realistic movement.
