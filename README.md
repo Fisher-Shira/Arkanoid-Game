@@ -9,6 +9,7 @@ The objective is to destroy all the blocks by bouncing a ball off a paddle contr
 - **Paddle Control**: Move the paddle left and right to bounce the ball.
 - **Blocks**: Breakable blocks arranged in rows that the player must destroy.
 - **Ball Physics**: The ball bounces off the walls, paddle, and blocks with realistic movement.
+- **Collision Detection**: Collisions are accurately detected and handled to ensure smooth gameplay.
 - **Game Over**: The game ends when the player destroys all the blocks or loses all the balls.
 - **Score Tracking:** Keep track on the score on the top of the screen.
 
@@ -39,3 +40,4 @@ The objective is to destroy all the blocks by bouncing a ball off a paddle contr
 
 ## Project Structure
 - **`src/`**: Contains the Java source code for all game components, including the paddle, ball, blocks, and game logic.
+- **`geometry_primitives/, sprite_settings/`**: Java packages inside src folder.
