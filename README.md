@@ -30,12 +30,16 @@ The objective is to destroy all the blocks by bouncing a ball off a paddle contr
 2. Navigate to the project directory:
    ```bash
     cd Arkanoid-Game
-3. Compile the project:
+3. Compile and run using make:
    ```bash
-    javac -d build src/geometry_primitives/*.java src/sprite_settings/*.java src/*.java
-4. Run the executable:
+   make run
+- If make is not installed, you can compile manually:
    ```bash
-    java -cp build ArkanoidGame
+   javac -d build src/geometry_primitives/*.java src/sprite_settings/*.java src/*.java
+   java -cp build ArkanoidGame
+4. To clean the build directory:
+   ```bash
+   make clean
 
 ## Project Structure
 - **`src/`**: Contains the Java source code for all game components, including the paddle, ball, blocks, and game logic.
