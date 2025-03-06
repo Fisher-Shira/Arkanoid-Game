@@ -46,7 +46,10 @@ The objective is to destroy all the blocks by bouncing a ball off a paddle contr
 ## Project Structure
 - **`src/`**: Contains the Java source code for all game components, including the paddle, ball, blocks, and game logic.
 - **`geometry_primitives/, sprite_settings/`**: Java packages inside src folder.
+- **`assets/`**: Contains media files such as the demo GIF.
+- **`Makefile`**: A file used to automate the build and setup process of the project (e.g., compilation and running the game).
 
 ## Demo Video
 Watch a demo of the game:
+
 ![Arkanoid Game Demo](assets/DemoArkanoidGame.gif)
