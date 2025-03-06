@@ -11,13 +11,15 @@ The objective is to destroy all the blocks by bouncing a ball off a paddle contr
 - **Collision Detection**: Collisions are accurately detected and handled to ensure smooth gameplay.
 - **Game Over**: The game ends when the player destroys all the blocks or loses all the balls.
 - **Score Tracking:** Keep track on the score on the top of the screen.
+- **Dynamic Ball Color**: The ball color changes according to the last block you break. You can only break blocks that are a different color from the ball.
 
 ## How to Play
 1. Run the program.
 2. Control the paddle movement using the **left** and **right** arrow keys.
 3. Try to break all the blocks by bouncing the balls off the paddle.
-4. Avoid dropping the balls below the paddle.
-5. The game ends when the player destroys all the blocks or loses all the balls.
+4. The ball color will change when you break a block, and you can only break blocks if their color is different from the ball's color.
+5. Avoid dropping the balls below the paddle.
+6. The game ends when the player destroys all the blocks or loses all the balls.
 
 ## Technologies Used
 - **Language:** Java
@@ -44,3 +46,7 @@ The objective is to destroy all the blocks by bouncing a ball off a paddle contr
 ## Project Structure
 - **`src/`**: Contains the Java source code for all game components, including the paddle, ball, blocks, and game logic.
 - **`geometry_primitives/, sprite_settings/`**: Java packages inside src folder.
+
+## Demo Video
+Watch a demo of the game:
+![Arkanoid Game Demo](assets/DemoArkanoidGame.gif)
