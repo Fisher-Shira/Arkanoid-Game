@@ -15,7 +15,7 @@ The objective is to destroy all the blocks by bouncing a ball off a paddle contr
 
 ## How to Play
 1. Run the program.
-2. Control the paddle movement using the left and right arrow keys.
+2. Control the paddle movement using the **left** and **right** arrow keys.
 3. Try to break all the blocks by bouncing the balls off the paddle.
 4. The ball color will change when you break a block, and you can only break blocks if their color is different from the ball's color.
 5. Avoid dropping the balls below the paddle.
