@@ -1,7 +1,7 @@
 # Arkanoid Game
 
 ## Overview
-This project is a classic **Arkanoid Game** implemented in Java.<br>
+This project is a classic Arkanoid Game implemented in Java.<br>
 The objective is to destroy all the blocks by bouncing a ball off a paddle controlled by the player.<br>
 
 ## Features
